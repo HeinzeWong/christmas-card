@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+*::before {
+  box-sizing: border-box;
+}
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(./font/Respective-VP6y.ttf);
+}
+/* @font-face {
+  font-family: "webfontSourceHanSansSC";
+  src: url(./font/SourceHanSansCN-Light.ttf);
+} */

@@ -1,33 +1,19 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import Prism from "prismjs";
+import { PrismCode } from "react-prism";
+
 
 export default class StyleEditor extends React.Component {
-  message = `/* Inspired by 「animating-resume」
-    abc,
-    ffffff
-  */`
-  interval = 30
-  state = {
-    current: ''
+  componentDidUpdate() {
+    ReactDOM.findDOMNode(this).scrollTop = 10000;
   }
-
-  componentDidMount() {
-    const interval = setInterval(() => {
-      if (!this.message.length) {
-        clearInterval(interval);
-        return;
-      }
-      let nextStr = this.message[0];
-      this.message = this.message.slice(1)
-      if
-      let { current } = this.state;
-      current += nextStr;
-      this.setState({
-        current
-      })
-    }, this.interval)
-  }
-
   render() {
-    return <div>{this.state.current}</div>;
+    return <div className="styleEditor">
+      <pre>
+        <PrismCode className="language-css">{this.props.content}</PrismCode>
+      </pre>
+      <div className="style" dangerouslySetInnerHTML={{ __html: `<style>${this.props.style}</style>` }}></div>
+    </div>;
   }
 }
