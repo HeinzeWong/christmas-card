@@ -35,5 +35,5 @@ markdown转html：这个是参考了原项目，使用marked将markdown转成htm
 
 ### `构建`
 因为之前一直没有用过github-page，构建也是花了大功夫=。=，所以部署这个静态页面也是花了很多功夫<br>
-中途遇到不少问题，比如github-page只能读到项目根路径下的index，但一般现在的前端项目打包以后的文件都会放在dist或者build文件夹中
+中途遇到不少问题，比如github-page只能读到项目根路径下的index，但一般现在的前端项目打包以后的文件都会放在dist或者build文件夹中<br>
 最后使用gh-pages库解决问题，原理是新建一个gh-pages分支，每次打包后再将build文件夹下的文件提交到gh-pages分支中

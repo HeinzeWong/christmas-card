@@ -36,14 +36,15 @@ export default class App extends React.Component {
   }
 
   showStyleProgressively(msg) {
+    const msgArr = msg.split('');
     return new Promise(resolve => {
       const interval = setInterval(() => {
-        if (!msg.length) {
+        if (!msgArr.length) {
           clearInterval(interval);
           resolve();
           return;
         }
-        const nextStr = msg.shift();
+        const nextStr = msgArr.shift();
         let { styleContent } = this.state;
         this.setState({
           styleContent: styleContent + nextStr
@@ -53,14 +54,15 @@ export default class App extends React.Component {
   }
 
   showCardProgressively(msg) {
+    const msgArr = msg.split('');
     return new Promise(resolve => {
       const interval = setInterval(() => {
-        if (!msg.length) {
+        if (!msgArr.length) {
           clearInterval(interval);
           resolve();
           return;
         }
-        const nextStr = msg.shift();
+        const nextStr = msgArr.shift();
         let { cardContent } = this.state;
         this.setState({
           cardContent: cardContent + nextStr

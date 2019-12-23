@@ -58,9 +58,9 @@ export default [
   * 临近圣诞，给你们送个贺卡吧！
   */
  ` + defaultText
-      ).split(""),
+      ),
       `/* emmm，这个贺卡好像着实有点太朴素（丑）
-      `.split(""),
+      `,
       `/* 再对 HTML 加点样式吧 */
       .resumeEditor{
         padding: 2em;
@@ -89,12 +89,12 @@ export default [
         margin: 1em;
         padding: .5em;
         background: #ddd;
-      }`.split("")
+      }`
     ],
     card: `
     Merry Christmas
 ----
 * 送你一瓶酒，祝你早日找到与你共饮一杯的妹子
-    `.split("")
+    `
   }
 ];
