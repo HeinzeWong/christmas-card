@@ -74,7 +74,8 @@ const defaultText3 = `/* 那就加点样式吧 */
 .resumeEditor {
   border: 1px solid #000;
   background-color: #943038;
-  background-image: radial-gradient(#c75f4e, #943038 );
+  background-image: radial-gradient(#c75f4e, #943038);
+  box-shadow: 0 0 30px #000;
   color: #fff;
 }
 
@@ -177,17 +178,19 @@ export default [
       `/*
   * Inspired by 「会动的简历」
   * hi，南辉
-  * 很久没在游戏上见到大家了，甚是想念
-  * 临近圣诞，就给你们画个贺卡吧
+  * 入职以来，承蒙关照
+  * 以后估计也会继续叨扰你
+  * 无以为报
+  * 临近圣诞，就给你画个贺卡吧
   */
  ` + defaultText1,
       defaultText2,
       defaultText3
     ],
     card: `
-    Merry  Christmas
-----
-* 心之所愿，无所不成
+### Merry  Christmas
+------------------
+#### 心之所愿，无所不成
     `
   }
 ];
