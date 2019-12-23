@@ -23,6 +23,17 @@ html {
   font-family: 'lato';
   src: url(./font/Respective-VP6y.ttf);
 }
+
+
+@font-face {
+  font-family: 'exmouth';
+  src: url(./font/exmouth_.ttf);
+}
+
+@font-face {
+  font-family: 'liukai';
+  src: url(./font/liukai.ttf);
+}
 /* @font-face {
   font-family: "webfontSourceHanSansSC";
   src: url(./font/SourceHanSansCN-Light.ttf);

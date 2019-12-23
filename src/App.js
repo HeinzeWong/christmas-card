@@ -30,12 +30,21 @@ export default class App extends React.Component {
     await this.showStyleProgressively(this.message[0]);
     await this.showCardProgressively(this.card);
     await this.showStyleProgressively(this.message[1]);
-    this.setState({
-      isMarked: true
-    }, await this.showStyleProgressively(this.message[2]))
+    await this.turnToHtml();
+    this.showStyleProgressively(this.message[2])
   }
 
-  showStyleProgressively(msg) {
+  turnToHtml() {
+    return new Promise((resolve) => {
+      this.setState({
+        isMarked: true
+      }, () => {
+        resolve()
+      })
+    })
+  }
+
+  showStyleProgressively(msg = '') {
     const msgArr = msg.split('');
     return new Promise(resolve => {
       const interval = setInterval(() => {

@@ -3,10 +3,10 @@ const defaultText1 = `
 * {
   transition: all .3s;
 }
-/* 白色背景太单调了，我们来点背景 */
+/* 白色背景太单调了，来点背景 */
 html {
-  color: rgb(222,222,222); 
   background: rgb(0,43,54);
+  color: rgb(222,222,222); 
 }
 /* 文字离边框太近了 */
 .styleEditor {
@@ -16,12 +16,12 @@ html {
   overflow: auto;
   width: 45vw; height: 90vh;
 }
-/* 代码高亮 */
+/* 给代码上个色 */
 .token.selector{ color: rgb(133,153,0); }
 .token.property{ color: rgb(187,137,0); }
 .token.punctuation{ color: yellow; }
 .token.function{ color: rgb(42,161,152); }
-/* 加点 3D 效果呗 */
+/* 加点 3D 效果鸭 */
 html{
   perspective: 1000px;
 }
@@ -32,7 +32,7 @@ html{
   -webkit-transform: rotateY(10deg) translateZ(-100px) ;
           transform: rotateY(10deg) translateZ(-100px) ;
 }
-/* 接下来我给自己准备一个编辑器 */
+/* 接下来我给自己准备一个贺卡编辑器 */
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: .5em;
@@ -41,42 +41,50 @@ html{
   background: white; color: #222;
   overflow: auto;
 }
-/* 好了，我开始写贺卡了 */
+/* 好了，我要开始写贺卡了 */
 
 `;
 
-const defaultText2 = `/* emmm，这个贺卡好像着实有点太朴素（丑）
+const defaultText2 = `/* emmm，言简意赅，又不失意境，就这些吧。。
+不过，这个贺卡好像着实有点太朴素（丑）
 `;
 
-const defaultText3 = `/* 再对 HTML 加点样式吧 */
-.resumeEditor{
+const defaultText3 = `/* 那就加点样式吧 */
+.resumeEditor {
   padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.resumeEditor h2{
-  display: inline-block;
-  border-bottom: 1px solid;
-  margin: 1em 0 .5em;
+.resumeEditor h3{
+  font-family: exmouth;
+  font-size: 5em;
+  font-weight: 500;
 }
-.resumeEditor ul,.resumeEditor ol{
-  list-style: none;
+.resumeEditor h4{
+  font-family: liukai;
+  font-size: 2em;
+  text-align: center;
 }
-.resumeEditor ul> li::before{
-  content: '•';
-  margin-right: .5em;
+.resumeEditor hr{
+  margin: 0 4vw;
+  border: 1px solid #fff;
 }
-.resumeEditor ol {
-  counter-reset: section;
+
+.resumeEditor {
+  border: 1px solid #000;
+  background-color: #943038;
+  background-image: radial-gradient(#c75f4e, #943038 );
+  color: #fff;
 }
-.resumeEditor ol li::before {
-  counter-increment: section;
-  content: counters(section, ".") " ";
-  margin-right: .5em;
-}
-.resumeEditor blockquote {
-  margin: 1em;
-  padding: .5em;
-  background: #ddd;
-}`;
+
+
+
+/*
+ * 大功告成了，希望你会喜欢(๑¯∀¯๑)
+ */
+`
+
 
 export default [
   {
@@ -94,9 +102,9 @@ export default [
       defaultText3
     ],
     card: `
-    Merry Christmas
-----
-* 心之所愿，无所不成。
+### Merry  Christmas
+------------------
+#### 心之所愿，无所不成
     `
   },
   {
@@ -115,9 +123,9 @@ export default [
       defaultText3
     ],
     card: `
-    Merry Christmas
+    Merry  Christmas
 ----
-* 心之所愿，无所不成。
+* 心之所愿，无所不成
     `
   },
   {
@@ -137,9 +145,9 @@ export default [
       defaultText3
     ],
     card: `
-    Merry Christmas
+    Merry  Christmas
 ----
-* 心之所愿，无所不成。
+* 心之所愿，无所不成
     `
   },
   {
@@ -157,9 +165,9 @@ export default [
       defaultText3
     ],
     card: `
-    Merry Christmas
+    Merry  Christmas
 ----
-* 心之所愿，无所不成。
+* 心之所愿，无所不成
     `
   },
   {
@@ -177,9 +185,9 @@ export default [
       defaultText3
     ],
     card: `
-    Merry Christmas
+    Merry  Christmas
 ----
-* 心之所愿，无所不成。
+* 心之所愿，无所不成
     `
   }
 ];
