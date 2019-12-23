@@ -9,7 +9,7 @@ import "./App.css";
 export default class App extends React.Component {
   message = "";
   card = "";
-  interval = 1;
+  interval = 50;
   state = {
     styleContent: "",
     cardContent: "",
