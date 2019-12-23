@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/christmas-card/static/css/main.d1b05096.chunk.css",
-    "main.js": "/christmas-card/static/js/main.a79f0628.chunk.js",
-    "main.js.map": "/christmas-card/static/js/main.a79f0628.chunk.js.map",
-    "runtime-main.js": "/christmas-card/static/js/runtime-main.58529571.js",
-    "runtime-main.js.map": "/christmas-card/static/js/runtime-main.58529571.js.map",
-    "static/js/2.250dc4af.chunk.js": "/christmas-card/static/js/2.250dc4af.chunk.js",
-    "static/js/2.250dc4af.chunk.js.map": "/christmas-card/static/js/2.250dc4af.chunk.js.map",
+    "main.css": "/christmas-card/static/css/main.d19531ab.chunk.css",
+    "main.js": "/christmas-card/static/js/main.1ecaa472.chunk.js",
+    "main.js.map": "/christmas-card/static/js/main.1ecaa472.chunk.js.map",
+    "runtime-main.js": "/christmas-card/static/js/runtime-main.d3c651f5.js",
+    "runtime-main.js.map": "/christmas-card/static/js/runtime-main.d3c651f5.js.map",
+    "static/js/2.1df48fb0.chunk.js": "/christmas-card/static/js/2.1df48fb0.chunk.js",
+    "static/js/2.1df48fb0.chunk.js.map": "/christmas-card/static/js/2.1df48fb0.chunk.js.map",
     "index.html": "/christmas-card/index.html",
-    "precache-manifest.48fd8f768a7225b57ac5a8cf534cb4b8.js": "/christmas-card/precache-manifest.48fd8f768a7225b57ac5a8cf534cb4b8.js",
+    "precache-manifest.805e9793078a5955ff267e02691e7f9a.js": "/christmas-card/precache-manifest.805e9793078a5955ff267e02691e7f9a.js",
     "service-worker.js": "/christmas-card/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/christmas-card/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.250dc4af.chunk.js.LICENSE": "/christmas-card/static/js/2.250dc4af.chunk.js.LICENSE",
-    "static/media/logo.svg": "/christmas-card/static/media/logo.5d5d9eef.svg"
+    "static/css/main.d19531ab.chunk.css.map": "/christmas-card/static/css/main.d19531ab.chunk.css.map",
+    "static/js/2.1df48fb0.chunk.js.LICENSE": "/christmas-card/static/js/2.1df48fb0.chunk.js.LICENSE",
+    "static/media/App.css": "/christmas-card/static/media/Respective-VP6y.fe1a2d59.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.58529571.js",
-    "static/js/2.250dc4af.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.a79f0628.chunk.js"
+    "static/js/runtime-main.d3c651f5.js",
+    "static/js/2.1df48fb0.chunk.js",
+    "static/css/main.d19531ab.chunk.css",
+    "static/js/main.1ecaa472.chunk.js"
   ]
 }
