@@ -235,5 +235,51 @@ export default [
 ------------------
 #### 行到水穷处，坐看云起时
     `
+  },
+  {
+    id: "2615ef35-8aa4-d967-87d6-d2250b8515e1",
+    nickName: "卓鹏女朋友",
+    message: [
+      `/*
+  * Inspired by 「会动的简历」
+  * hi，猪
+  * 25个月以来，承蒙关照
+  * 以后估计也会继续叨扰你
+  * 无以回报
+  * 临近圣诞，就给你画个贺卡吧
+  */
+ ` + defaultText1,
+      defaultText2,
+      defaultText3
+    ],
+    card: `
+### Merry  Christmas
+------------------
+#### 圣诞快乐 天天开心
+    `
+  },
+  {
+    id: "aaa23af3-a7b9-b4c5-d98e-be7d999664d9",
+    nickName: "海星",
+    message: [
+      `/*
+  * Inspired by 「会动的简历」
+  * hi，海星
+  * 好久不见了
+  * 之前刚好翻到跟你的微信聊天记录
+  * 好像自毕业以后就疏远了许多，颇感唏嘘
+  * 以后要多约起来
+  * 坐言起行
+  * 临近圣诞，就先给你画个贺卡显示下诚意吧
+  */
+ ` + defaultText1,
+      defaultText2,
+      defaultText3
+    ],
+    card: `
+### Merry  Christmas
+------------------
+#### 心之所愿，无所不成
+    `
   }
 ];
