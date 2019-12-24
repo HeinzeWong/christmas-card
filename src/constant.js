@@ -60,6 +60,7 @@ const defaultText3 = `/* 那就加点样式吧 */
   font-family: exmouth;
   font-size: 5em;
   font-weight: 500;
+  text-align: center;
 }
 .resumeEditor h4{
   font-family: liukai;
@@ -148,7 +149,7 @@ export default [
     card: `
 ### Merry  Christmas
 ------------------
-#### 送你一瓶酒，祝你早日找到跟你共饮的妹子
+#### 送你一瓶酒，祝早日找到共饮的妹子
     `
   },
   {
@@ -158,17 +159,18 @@ export default [
       `/*
   * Inspired by 「会动的简历」
   * hi，吉姐
-  * 很久没在游戏上见到大家了，甚是想念
-  * 临近圣诞，就给你们画个贺卡吧
+  * 临近圣诞了，好像从来就没给你写过圣诞卡
+  * 感谢你最近的排忧解困
+  * 字不好看，就给你用代码画个贺卡吧
   */
  ` + defaultText1,
       defaultText2,
       defaultText3
     ],
     card: `
-    Merry  Christmas
-----
-* 心之所愿，无所不成
+### Merry  Christmas
+------------------
+#### 行到水穷处，坐看云起时
     `
   },
   {
@@ -202,6 +204,27 @@ export default [
   * hi，安全部的各位亲们
   * 许久不上游戏了，甚是想念
   * 临近圣诞，就给你们画个贺卡吧
+  */
+ ` + defaultText1,
+      defaultText2,
+      defaultText3
+    ],
+    card: `
+### Merry  Christmas
+------------------
+#### 行到水穷处，坐看云起时
+    `
+  },
+  {
+    id: "2615ef35-8aa4-d967-87d6-d2250b8515e7",
+    nickName: "前端开发组",
+    message: [
+      `/*
+  * Inspired by 「会动的简历」
+  * hi，前端组的各位亲们
+  * 临近圣诞，想给你们送个贺卡
+  * 字太丑，就不手写了
+  * 用代码给你们画个贺卡吧
   */
  ` + defaultText1,
       defaultText2,
