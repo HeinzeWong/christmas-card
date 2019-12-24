@@ -124,9 +124,9 @@ export default [
       defaultText3
     ],
     card: `
-    Merry  Christmas
-----
-* 心之所愿，无所不成
+### Merry  Christmas
+------------------
+#### 心之所愿，无所不成
     `
   },
   {
@@ -146,9 +146,9 @@ export default [
       defaultText3
     ],
     card: `
-    Merry  Christmas
-----
-* 心之所愿，无所不成
+### Merry  Christmas
+------------------
+#### 送你一瓶酒，祝你早日找到跟你共饮的妹子
     `
   },
   {
@@ -191,6 +191,26 @@ export default [
 ### Merry  Christmas
 ------------------
 #### 心之所愿，无所不成
+    `
+  },
+  {
+    id: "2bd7de68-e235-590d-1735-db7cb7506acd",
+    nickName: "行星防御理事会",
+    message: [
+      `/*
+  * Inspired by 「会动的简历」
+  * hi，安全部的各位亲们
+  * 许久不上游戏了，甚是想念
+  * 临近圣诞，就给你们画个贺卡吧
+  */
+ ` + defaultText1,
+      defaultText2,
+      defaultText3
+    ],
+    card: `
+### Merry  Christmas
+------------------
+#### 行到水穷处，坐看云起时
     `
   }
 ];
