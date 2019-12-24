@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/christmas-card/static/css/main.80efff49.chunk.css",
-    "main.js": "/christmas-card/static/js/main.1903fc6b.chunk.js",
-    "main.js.map": "/christmas-card/static/js/main.1903fc6b.chunk.js.map",
+    "main.js": "/christmas-card/static/js/main.11880e54.chunk.js",
+    "main.js.map": "/christmas-card/static/js/main.11880e54.chunk.js.map",
     "runtime-main.js": "/christmas-card/static/js/runtime-main.d3c651f5.js",
     "runtime-main.js.map": "/christmas-card/static/js/runtime-main.d3c651f5.js.map",
     "static/js/2.1df48fb0.chunk.js": "/christmas-card/static/js/2.1df48fb0.chunk.js",
     "static/js/2.1df48fb0.chunk.js.map": "/christmas-card/static/js/2.1df48fb0.chunk.js.map",
     "index.html": "/christmas-card/index.html",
-    "precache-manifest.ed0cda4f49aef89db24fefbdf3640733.js": "/christmas-card/precache-manifest.ed0cda4f49aef89db24fefbdf3640733.js",
+    "precache-manifest.0dda93e950cdfccfc245ec7ef8a1d3e3.js": "/christmas-card/precache-manifest.0dda93e950cdfccfc245ec7ef8a1d3e3.js",
     "service-worker.js": "/christmas-card/service-worker.js",
     "static/css/main.80efff49.chunk.css.map": "/christmas-card/static/css/main.80efff49.chunk.css.map",
     "static/js/2.1df48fb0.chunk.js.LICENSE": "/christmas-card/static/js/2.1df48fb0.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d3c651f5.js",
     "static/js/2.1df48fb0.chunk.js",
     "static/css/main.80efff49.chunk.css",
-    "static/js/main.1903fc6b.chunk.js"
+    "static/js/main.11880e54.chunk.js"
   ]
 }
