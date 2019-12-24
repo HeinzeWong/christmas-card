@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "149147aa60a7fcb2fd9e95639dbfa8d1",
+    "revision": "60eeeb334fc36748a90bb4af812e3985",
     "url": "/christmas-card/index.html"
   },
   {
-    "revision": "aefb539c8ad7d17fb3d3",
+    "revision": "6d342999508906974425",
     "url": "/christmas-card/static/css/main.80efff49.chunk.css"
   },
   {
-    "revision": "9a2bef82d96e82644540",
-    "url": "/christmas-card/static/js/2.3e198488.chunk.js"
+    "revision": "5e3d419a61dda770244d",
+    "url": "/christmas-card/static/js/2.1df48fb0.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/christmas-card/static/js/2.3e198488.chunk.js.LICENSE"
+    "url": "/christmas-card/static/js/2.1df48fb0.chunk.js.LICENSE"
   },
   {
-    "revision": "aefb539c8ad7d17fb3d3",
-    "url": "/christmas-card/static/js/main.72b83fc4.chunk.js"
+    "revision": "6d342999508906974425",
+    "url": "/christmas-card/static/js/main.26c53ad8.chunk.js"
   },
   {
     "revision": "e1a72e9f2f41ef86a6d8",
