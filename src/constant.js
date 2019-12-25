@@ -259,7 +259,7 @@ export default [
     `
   },
   {
-    id: "aaa23af3-a7b9-b4c5-d98e-be7d999664d9",
+    id: "aaa23af3-a7b9-b4c5-d98e-be7d9996610",
     nickName: "海星",
     message: [
       `/*
@@ -280,6 +280,48 @@ export default [
 ### Merry  Christmas
 ------------------
 #### 心之所愿，无所不成
+    `
+  },
+  {
+    id: "aaa23af3-a7b9-b4c5-d98e-be7d9222223",
+    nickName: "雨宸",
+    message: [
+      `/*
+  * Inspired by 「会动的简历」
+  * hi，雨宸
+  * 圣诞快乐！
+  * 没给你准备圣诞礼物
+  * 给你画个贺卡吧
+  */
+ ` + defaultText1,
+      defaultText2,
+      defaultText3
+    ],
+    card: `
+### Merry  Christmas
+------------------
+#### 心之所愿，无所不成
+    `
+  },
+  {
+    id: "aaa23af3-a7b9-b4c5-d98e-be7d92111123",
+    nickName: "雨宸",
+    message: [
+      `/*
+  * Inspired by 「会动的简历」
+  * hi，惠莹
+  * 圣诞快乐！！
+  * 之前叫你帮忙测试过贺卡，所以都没有啥惊喜了
+  * 不过，还是给你画个贺卡聊表心意吧
+  */
+ ` + defaultText1,
+      defaultText2,
+      defaultText3
+    ],
+    card: `
+### Merry  Christmas
+------------------
+#### 早生贵子，三年抱俩
     `
   }
 ];
