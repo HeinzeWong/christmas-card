@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/christmas-card/static/css/main.80efff49.chunk.css",
-    "main.js": "/christmas-card/static/js/main.12b5de12.chunk.js",
-    "main.js.map": "/christmas-card/static/js/main.12b5de12.chunk.js.map",
+    "main.js": "/christmas-card/static/js/main.e29ce9da.chunk.js",
+    "main.js.map": "/christmas-card/static/js/main.e29ce9da.chunk.js.map",
     "runtime-main.js": "/christmas-card/static/js/runtime-main.d3c651f5.js",
     "runtime-main.js.map": "/christmas-card/static/js/runtime-main.d3c651f5.js.map",
-    "static/js/2.1df48fb0.chunk.js": "/christmas-card/static/js/2.1df48fb0.chunk.js",
-    "static/js/2.1df48fb0.chunk.js.map": "/christmas-card/static/js/2.1df48fb0.chunk.js.map",
+    "static/js/2.3e198488.chunk.js": "/christmas-card/static/js/2.3e198488.chunk.js",
+    "static/js/2.3e198488.chunk.js.map": "/christmas-card/static/js/2.3e198488.chunk.js.map",
     "index.html": "/christmas-card/index.html",
-    "precache-manifest.cc3660a1be5d3a3fff3f722680769fa2.js": "/christmas-card/precache-manifest.cc3660a1be5d3a3fff3f722680769fa2.js",
+    "precache-manifest.cfd49d9d3ab9b34a2fa338634f192618.js": "/christmas-card/precache-manifest.cfd49d9d3ab9b34a2fa338634f192618.js",
     "service-worker.js": "/christmas-card/service-worker.js",
     "static/css/main.80efff49.chunk.css.map": "/christmas-card/static/css/main.80efff49.chunk.css.map",
-    "static/js/2.1df48fb0.chunk.js.LICENSE": "/christmas-card/static/js/2.1df48fb0.chunk.js.LICENSE",
+    "static/js/2.3e198488.chunk.js.LICENSE": "/christmas-card/static/js/2.3e198488.chunk.js.LICENSE",
     "static/media/App.css": "/christmas-card/static/media/liukai.ff7e6297.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.d3c651f5.js",
-    "static/js/2.1df48fb0.chunk.js",
+    "static/js/2.3e198488.chunk.js",
     "static/css/main.80efff49.chunk.css",
-    "static/js/main.12b5de12.chunk.js"
+    "static/js/main.e29ce9da.chunk.js"
   ]
 }
