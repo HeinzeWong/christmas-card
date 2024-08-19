@@ -1,10 +1,9 @@
 {
   "redirects": [
     {
-      "source": "/christmas-card/:match*",
-      "destination": "/:match*",
-      "permanent": true,
-      "statusCode": 301
+      "source": "/christmas-card/:path*",
+      "destination": "/:path*",
+      "permanent": true
     }
   ]
 }
